@@ -1,0 +1,227 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+aside,
+nav,
+footer,
+header,
+section {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+html,
+body {
+    scroll-behavior: smooth;
+    height: 100%;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+input {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body {
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+    padding: 0px;
+    margin: 0px;
+    resize: none;
+    border: 0px;
+}
+button {
+    background-color: transparent;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+ul,
+li,
+p {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+img {
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+div {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body {
+    font-weight: 800;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: #9d5cd0;
+}
+
+.body__list {
+    display: flex;
+    max-width: 1600px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.blog-list__item {
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.blog-list__item:not(:last-child) {
+    border-bottom: 1px solid #9d5cd0;
+}
+.blog-list__item:not(:last-child):hover {
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+    border-color: #7943a4;
+}
+.blog-list__link {
+    /* position: absolute; */
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.blog-list__link:hover {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    color: #7943a4;
+}
+.nav {
+    margin-left: 10px;
+}
+.nav__list {
+    max-width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-height: 900px;
+    grid-column-gap: 10px;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+}
+.nav__link {
+    display: block;
+    color: #fff;
+    min-height: 30px;
+    width: 100%;
+    border: 1px solid #9d5cd0;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav__link:hover {
+    -webkit-transition: border-color, color 0.3s;
+    transition: border-color, color 0.3s;
+    border-color: #7943a4;
+    color: #7943a4;
+}
+.body-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.article {
+    color: #fff;
+    padding: 50px;
+    margin: 0 auto;
+    border: 10px solid #7943a4;
+    border-radius: 10px;
+}
+.article__title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.article__body {
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.comments__item {
+    padding-top: 20px;
+    border-top: 1px solid #9d5cd0;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+}
+.comments__item + .comments__item {
+    margin-top: 20px;
+}
+.comments__name {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/*# sourceMappingURL=listHtml.css.map*/
